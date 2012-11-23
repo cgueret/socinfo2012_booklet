@@ -1,0 +1,280 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[width=17cm,height=27cm,includeheadfoot]{geometry}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyhdr,lastpage}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+
+
+%opening
+\title{SocInfo2012}
+\author{}
+
+\begin{document}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headheight}{14pt}
+\fancyhead[L]{SocInfo2012}
+\fancyhead[R]{The 4th International Conference on Social Informatics}
+\fancypagestyle{plain}{
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+}
+
+\maketitle
+
+\tableofcontents
+
+
+
+\newcommand{\ncell}[2][X]{%
+\begin{tabularx}{0.71\linewidth}[#1]{@{}X@{}}#2\end{tabularx}%
+}
+  
+\chapter{Programme Overview}
+NOTE: We should indicate the rooms in the tables
+\begin{center}
+\bgroup
+\def\arraystretch{1.5}
+\begin{tabularx}{.9\linewidth}{|c|X|X|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Wednesday, December 5}}\\
+\hline
+08:00 $\rightarrow$ 18:00 & \multicolumn{2}{c|}{Registration}\\
+\hline
+08:45 $\rightarrow$ 09:00 & \multicolumn{2}{c|}{Conference opening}\\
+\hline
+09:00 $\rightarrow$ 10:00 & \multicolumn{2}{c|}{\cellcolor{green!20}
+\ncell{Keynote by Andreas Ernst:\\About the Why? and the How? of psychologically
+plausible agents}}\\
+\hline
+10:00 $\rightarrow$ 10:30 & \multicolumn{2}{c|}{Break}\\
+\hline
+10:30 $\rightarrow$ 12:30 & \multicolumn{2}{c|}{\cellcolor{blue!20}Session
+1: Social Graph, Social Influence and Viral Marketing}\\
+\hline
+12:30 $\rightarrow$ 14:00 & \multicolumn{2}{c|}{Lunch break}\\
+\hline
+14:00 $\rightarrow$ 16:00 & \multicolumn{2}{c|}{\cellcolor{blue!20}Session 2:
+Recommendation and Crowd Computing }\\
+\hline
+16:00 $\rightarrow$ 16:30 & \multicolumn{2}{c|}{Break}\\
+\hline
+16:30 $\rightarrow$ 18:00 & \cellcolor{red!20} Tutorial 1: Supporting
+sociological theories with social media data mining  &
+\cellcolor{red!20} Tutorial 2: Online Social Experiments with nodeGame \\
+\hline
+\end{tabularx}
+\egroup
+\end{center}
+
+\begin{center}
+\bgroup
+\def\arraystretch{1.5}
+\begin{tabularx}{.9\linewidth}{|c|X|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Thursday, December 6}}\\
+\hline
+09:00 $\rightarrow$ 10:00 & \multicolumn{1}{c|}{\cellcolor{green!20}
+\ncell{Keynote by Bernardo Huberman:\\Big Data and the Attention Economy}}\\
+\hline
+10:00 $\rightarrow$ 10:30 & \multicolumn{1}{c|}{Break}\\
+\hline
+10:30 $\rightarrow$ 12:30 & \multicolumn{1}{c|}{\cellcolor{blue!20}Session
+3: Sentiment Analysis and Trust}\\
+\hline
+12:30 $\rightarrow$ 14:00 & \multicolumn{1}{c|}{\cellcolor{red!20}Buffer lunch
+with poster/demo session}\\
+\hline
+14:00 $\rightarrow$ 16:00 & \multicolumn{1}{c|}{\cellcolor{blue!20}Session 4:
+Social Tagging and Discovery}\\
+\hline
+16:00 $\rightarrow$ 16:30 & \multicolumn{1}{c|}{Break}\\
+\hline
+16:30 $\rightarrow$ 18:00 & \multicolumn{1}{c|}{\cellcolor{red!20}
+\ncell{Tutorial 3: Human activity and
+mobility patterns: measurements, models,\\ and implications }} \\
+\hline
+\end{tabularx}
+\egroup
+\end{center}
+
+\begin{center}
+\bgroup
+\def\arraystretch{1.5}
+\begin{tabularx}{.9\linewidth}{|c|X|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Friday, December 7}}\\
+\hline
+09:00 $\rightarrow$ 10:00 & \multicolumn{1}{c|}{\cellcolor{green!20}
+\ncell{Keynote by Dirk Helbing:\\ From Computational Social Science to
+Socio-Inspired Technology to Artificial Societies}}\\
+\hline
+10:00 $\rightarrow$ 10:30 & \multicolumn{1}{c|}{Break}\\
+\hline
+10:30 $\rightarrow$ 12:30 & \multicolumn{1}{c|}{\cellcolor{blue!20}Session 5:
+Community Detection and Evolution}\\
+\hline
+12:30 $\rightarrow$ 14:00 & \multicolumn{1}{c|}{Lunch break}\\
+\hline
+14:00 $\rightarrow$ 16:00 & \multicolumn{1}{c|}{\cellcolor{blue!20}Session 6:
+Social Informatics and Applications }\\
+\hline
+16:00 $\rightarrow$ 16:30 & \multicolumn{1}{c|}{Break}\\
+\hline
+16:30 $\rightarrow$ 18:00 & \multicolumn{1}{c|}{\cellcolor{red!20}
+Plenary Panel} \\
+\hline
+\end{tabularx}
+\egroup
+\end{center}
+\chapter{Abstracts per session}
+\section{Session 1: Social Graph, Social Influence and Viral Marketing
+}
+\begin{itemize}
+\item \textbf{Connecting with Active People Matters: The Influence of an Online
+Community on Physical Activity Behavior}
+
+\textit{Maartje Groenewegen, Dimo Stoyanov, Dirk Deichmann and Aart van
+Halteren}
+
+This paper discusses the impact of online social networks as means to motivate
+people to become more physically active. Based on a data set from 4333
+participants we show that the activity level of people that participated in the
+online community (for 14 weeks) is significantly higher compared to people that
+choose not to become a member of that community. Detailed analyses show that the
+number of contacts in the online community does not have a significant effect on
+the physical activity level while network density even has a significant,
+negative effect. On the other hand, the activity level of a participant is
+higher when his or her friends also have a high average activity level. This
+effect is even higher when a participant's amount of friends
+increases.Theoretical and managerial implications concerning the impact of
+online social networks on offline behavior are discussed. 
+
+\item \textbf{The Multidimensional Study of Viral Campaigns as Branching
+Processes}
+
+\textit{Jaroslaw Jankowski, Radoslaw Michalski and Przemyslaw Kazienko}
+
+Viral campaigns on the Internet may follow variety of models, depending on the
+content, incentives, personal attitudes of sender and recipient to the content
+and variety of other factors. Due to the fact that the knowledge of the campaign
+specifics is essential for the campaign managers, researchers are constantly
+evaluating models and real-world data. The goal of this article is to present
+the new knowledge obtained from studying two viral campaigns that took place in
+a virtual world which followed the branching process. The results show that it
+is possible to reduce the time needed to estimate the model parameters of the
+campaign and, moreover, some important aspects of time-generations relationship
+are presented.
+
+\item \textbf{A Model to Represent Human Social Relationships in Social Network
+Graphs}
+
+\textit{Marco Conti, Andrea Passarella and Fabio Pezzoni}
+
+Human social relationships are a key component of emerging complex techno-social
+systems such as socially-centric platforms based on the interactions between
+humans and ICT technologies. Therefore, the models of human social relationships
+are fundamental to characterise these systems and study the performance of
+socially-centric platforms depending on the social context where they operate.
+The goal of this paper is presenting a generative model for building synthetic
+human social network graphs where the properties of social relationships are
+accurately reproduced. The model goes well beyond a binary approach, whereby
+edges between nodes, if existing, are all of the same type. It sets the
+properties of each social link, by incorporating fundamental results from the
+anthropology literature. The synthetic networks it generates accurately
+reproduce both the macroscopic structure (e.g., its diameter and clustering
+coefficient), and the microscopic structure (e.g., the properties of the tie
+strength of individual social links) of human social networks. We compare
+generated networks with a large-scale social network data set, validating that
+the model is able to produce graphs with the same structural properties of
+human-social-network graphs. Moreover, we characterise the impact of the model
+parameters on the synthetic graph properties.
+
+
+\item \textbf{Interpolating between Random Walks and Shortest Paths: a Path
+Functional Approach}
+
+\textit{Francois Bavaud and Guillaume Guex}
+
+General models of network navigation must contain a deterministic or drift
+component, encouraging the agent to follow routes of least cost, as well as a
+random of diffusive component, enabling free wandering. This paper proposes a
+thermodynamic formalism involving two path functionals, namely an energy
+functional governing the drift and an entropy functional governing the
+diffusion.\\
+A freely adjustable parameter, the temperature, arbitrates between the
+conflicting objectives of minimising travel costs and maximising spatial
+exploration. The theory is illustrated on various graphs and various
+temperatures. The resulting optimal paths, together with presumably new
+associated edges and nodes centrality indices, are analytically and numerically
+investigated. 
+
+\item \textbf{Studying Paths of Participation in Viral Diffusion Process within
+Virtual Chat Environment}
+
+\textit{Jaroslaw Jankowski, Sylwia Ciuberek, Anita Zbieg and Radoslaw Michalski}
+
+Authors propose a conceptual model of participation in viral diffusion process
+composed of four stages: awareness, infection, engagement and action. To verify
+the model it has been applied and studied in the virtual social chat environment
+settings. The study investigates the behavioural paths of actions that reflect
+the stages of participation in the diffusion and presents shortcuts, that lead
+to the final action – the attendance in a virtual event. The results show that
+the participation in each stage of the process increases the probability of
+reaching the final action. Nevertheless, the majority of users involved in the
+virtual event did not go through each stage of the process but followed the
+shortcuts. That suggests that the viral diffusion process is not necessarily a
+linear sequence of human actions but rather a dynamic system.
+
+
+\item \textbf{How Influential are You: Detecting Influential Bloggers in a
+Blogging Community}
+
+\textit{Imrul Kayes}
+
+The emergence of advanced web 2.0 technologies has created a new horizon for
+previously known information consumer, enabled them to produce information on
+the web through novel and innovative inter- active applications such as blogs. A
+Blog is a virtual media on the web where users commonly referred as bloggers
+publish their context aware information. Bloggers write blog posts, express a
+preference through likes and dislikes, voice their opinions, participate debate,
+report news, and form virtual communities of similar interest groups on the
+Blogosphere. Bloggers interactions on blogosphere mimic, to some extent, real
+world interaction. Inspired by the high impact of the influential individuals in
+a real world community, we study a contemporary problem of identifying
+influential bloggers at a blogging platform. We model bloggers influence based
+upon a wide range of centrality measurements and quantify influence strength. We
+conduct experiments with data from a real world blogging platform, discover
+multi-facets of the problem of identifying influential bloggers, and discuss
+plausible methods. Our study reveals that some bloggers span MEGA influence on
+fellow bloggers and there is some degree of correlation between the methods that
+are used along the uncovering process.
+
+
+\item \textbf{Dark Retweets: Investigating Non-Conventional Retweeting Patterns}
+
+\textit{Norhidayah Azman, David Millard and Mark Weal}
+
+Retweets are an important mechanism for recognising propagation of information
+on the Twitter social media platform. However, many retweets do not use the
+official retweet mechanism, or even community established conventions, and these
+"dark retweets" are not accounted for in many existing analysis. In this paper,
+a comprehensive matrix of tweet propagation is presented to show the different
+nuances of retweeting, based on seven characteristics: whether it is
+proprietary, the mechanism used, whether it is directed to followers or
+non-followers, whether it mentions other users, if it is explicitly propagating
+another tweet, if it links to an original tweet, and what is the audience it is
+pushed to. Based on this matrix and two assumptions of retweetability, the
+degrees of a retweet's "darkness" can be determined. This matrix was evaluated
+over 2.3 million tweets and it was found that dark retweets amounted to 12.86\%
+(for search results less than 1500 tweets per URL) and 24.7\% (for search
+results including more than 1500 tweets per URL) respectively. By extrapolating
+these results with those found in existing studies, potentially thousands of
+retweets may be hidden from existing studies on retweets.
+
+
+\end{itemize}
+\end{document}
